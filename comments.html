@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Refúgio do Vento</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area ">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="">
+          </a>
+          <div class="" id="">
+            <div class="User_option">
+              <form class="form-inline my-2  mb-3 mb-lg-0">
+                <input type="search" placeholder="Search">
+                <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1">
+
+                </span>
+                <span class="s-2">
+
+                </span>
+                <span class="s-3">
+
+                </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <!-- <a href="about.html">About</a> -->
+                <a href="comments.html">Comments</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+<div class="container">
+  <form>
+    <div class="row">
+      
+          <div class="col-6">
+            <label for="exampleFormControlInput1">Nome </label>
+            <input type="email" class="form-control" id="idNome" placeholder="ex: Rebeca Caetano">
+          </div>
+          
+    </div>
+      
+    <div class="row">
+      <div class="col-12">
+        <label for="exampleFormControlTextarea1">Adicione seu comentário</label>
+        <textarea class="form-control" id="idComments" rows="3"></textarea>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-12">
+        <div class=" d-flex justify-content-end">
+           <button type="button" onclick="salvar()" class="btn btn-success">Enviar</button>
+        </div>
+      </div>
+    </div>
+   
+
+  </form>
+</div>
+  
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+   
+    <div class="container">
+      
+      <div class="row d-flex justify-content-center mt-100 mb-100">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Amor, Teoricamente</h4>
+                </div>
+                <div class="comment-widgets">
+                    <!-- Comment Row -->
+                    <div class="d-flex flex-row comment-row m-t-0">
+                        <div class="p-2"><img src="https://cdnb.artstation.com/p/assets/images/images/057/763/049/large/fernanda-fernandez-feyre00.jpg?1672607939" alt="user" width="50" class="rounded-circle"></div>
+                        <div class="comment-text w-100">
+                            <h6 class="font-medium">Rebeca Caetano</h6> <span class="m-b-15 d-block">Aqui, em "amor, teoricamente", vamos conhecer a jornada da personagem Elsie Hannaway que é uma física teórica e que passou anos de sua vida moldando diferentes versões de si mesma. Ela trabalha como professora adjunta, na esperança de conseguir um emprego melhor, e em outros dias, compensa seu salário oferecendo serviços de namorada de mentira por meio de um aplicativo. </span>
+                          <span class="text-muted float-right">April 14, 2019</span>
+                          
+                        </div>
+                    </div> <!-- Comment Row -->
+                    <div class="d-flex flex-row comment-row">
+                        <div class="p-2"><img src="https://www.etonline.com/sites/default/files/images/2022-05/Nicola-Coughlan-Getty-1395043458.jpg" alt="user" width="50" class="rounded-circle"></div>
+                        <div class="comment-text active w-100">
+                            <h6 class="font-medium">Thayslane Cecília</h6> <span class="m-b-15 d-block">Foi uma experiência incrivel poder acompanhar a evolução e aceitação da Elsie.</span>
+                          <span class="text-muted float-right">May 10, 2019</span> 
+                        
+                        </div>
+                    </div> <!-- Comment Row -->
+                    <div class="d-flex flex-row comment-row">
+                        <div class="p-2"><img src="https://br.web.img2.acsta.net/pictures/19/11/26/09/09/5380589.jpg" alt="user" width="50" class="rounded-circle"></div>
+                        <div class="comment-text w-100">
+                            <h6 class="font-medium">Jaciane Barbosa</h6> <span class="m-b-15 d-block">Foi muito bom </span>
+                             <span class="text-muted float-right">August 1, 2019</span> 
+                    </div>
+                    </div>
+                </div> <!-- Card -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </div>
+  
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  
+  <!-- end  footer section -->
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width")
+      document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
+    }
+  </script>
+ <script src="salvamento.js"></script>
+</body>
+
+</html>
