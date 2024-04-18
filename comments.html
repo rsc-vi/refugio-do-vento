@@ -35,12 +35,7 @@
             <img src="images/logo.png" alt="">
           </a>
           <div class="" id="">
-            <div class="User_option">
-              <form class="form-inline my-2  mb-3 mb-lg-0">
-                <input type="search" placeholder="Search">
-                <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
-            </div>
+            
 
             <div class="custom_menu-btn">
               <button onclick="openNav()">
@@ -69,12 +64,12 @@
     <!-- end header section -->
   </div>
 <div class="container">
-  <form>
+  <form action="http://localhost:3000/salvar" method="post">
     <div class="row">
       
           <div class="col-6">
             <label for="exampleFormControlInput1">Nome </label>
-            <input type="email" class="form-control" id="idNome" placeholder="ex: Rebeca Caetano">
+            <input type="email" class="form-control" id="idNome" name="idNome" placeholder="ex: Rebeca Caetano">
           </div>
           
     </div>
@@ -82,13 +77,13 @@
     <div class="row">
       <div class="col-12">
         <label for="exampleFormControlTextarea1">Adicione seu comentário</label>
-        <textarea class="form-control" id="idComments" rows="3"></textarea>
+        <textarea class="form-control" id="idName" rows="3"></textarea>
       </div>
     </div>
     <div class="row mt-2">
       <div class="col-12">
         <div class=" d-flex justify-content-end">
-           <button type="button" onclick="salvar()" class="btn btn-success">Enviar</button>
+           <button type="submit" class="btn btn-success">Enviar2</button>
         </div>
       </div>
     </div>

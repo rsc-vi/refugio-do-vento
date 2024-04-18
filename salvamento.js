@@ -9,5 +9,5 @@ function salvar(){
     console.log(localStorage.getItem("usuario"));
     console.log(localStorage.getItem("comentario"));
     
-    window.location.href="sucesso.html";
+    //window.location.href="sucesso.html";
 }
